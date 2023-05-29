@@ -120,3 +120,5 @@ class Veterinaire:
 
         return chaine
 
+    def serialiser(self):
+        pass

@@ -25,7 +25,7 @@ def cacher_labels_erreur(objet):
 
 def remplir_combobox_enclos(objet):
     for enclos in Enclos.ls_enclos:
-        objet.comboBox_enclos_animal.addItem(str(enclos.Nom_enclos))
+        objet.comboBox_enclos_animal.addItem(str(enclos.Numero_enclos))
 
 
 def verifier_animal(animal):
