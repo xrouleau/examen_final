@@ -94,6 +94,8 @@ class fenetrePrincipale(QtWidgets.QMainWindow, UI_PY.MainWindow_zoo.Ui_MainWindo
 #################################
 ###### PROGRAMME PRINCIPAL ######
 #################################
+
+
 # Créer le main qui lance la fenêtre de Qt
 def main():
     """
@@ -108,6 +110,7 @@ def main():
     form.show()
     # Lancer l'application
     app.exec()
+
 
 if __name__ == "__main__":
     main()
